@@ -14,3 +14,8 @@ class ShopAssistance:
                     total += product.price
 
             return total
+        else:
+            return 0
+
+if __name__ == "__main__":
+    unittest.main()
